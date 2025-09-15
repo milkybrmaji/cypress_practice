@@ -1,0 +1,12 @@
+# Dependecy Directory
+node_modules/
+
+# Cypress Screenshots/Videos
+cypress/screenshots/
+cypress/videos/
+
+# OS Junk
+.DS_Store
+
+# Env Files
+.env
