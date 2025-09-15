@@ -16,7 +16,7 @@ describe('Cypress Demo Tests', () => {
 
     it('interacts with a button', () => {
         cy.visit('https://example.cypress.io/commands/actions')
-        cy.get('.action-btn').click()
-        cy.get('#action-canvas').should('be.visible') // assert an element on the page is visible
+        cy.get('#email1').type('test@example.com')
+        cy.get('#email1').should('have.value', 'test@example.com')
     })
 });
